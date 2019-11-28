@@ -1,6 +1,6 @@
 # LabelIMGdrehen
 
-Ein Pythonscript, dass ein mit LabelIMG (https://github.com/tzutalin/labelImg) erstelltes Bilderdatenset zu diversifizieren.
+Ein Pythonscript, dass ein mit LabelIMG (https://github.com/tzutalin/labelImg) erstelltes Bilderdatenset diversifiziert.
 Dafür werden die Bilder inclusive Labelboxen gedreht und gespiegelt, was das Datenset verachtfacht.
 
 ## Nutzung:
