@@ -159,7 +159,7 @@ def xmldrehen(pathzuxml, xmlname):
                     neu.write(zeile)
                 else:
                     neu.write(zeile)
-        # Winkel 270 # hier fehler
+        # Winkel 270
         elif winkel == 270:
             # scan
             xmin0 = []
