@@ -1,14 +1,15 @@
-# LabelIMGdrehen
+# DiversifyLabelIMG
+A simple pythonscript to diversify an annotated dataset in JPG/XML Format as used by LabelIMG (https://github.com/tzutalin/labelImg).
+The script will rotate the images 4 times and mirror the resulting images and the annotations making for an expansion by the factor of 8.
 
-Ein Pythonscript, dass ein mit LabelIMG (https://github.com/tzutalin/labelImg) erstelltes Bilderdatenset diversifiziert.
-Dafür werden die Bilder inclusive Labelboxen gedreht und gespiegelt, was das Datenset verachtfacht.
 
-## Nutzung:
+## Usage
+0. Download the repository from the GitHub website and unzip it or directly clone it. 
+`git clone https://github.com/BendiXB/DiversifyLabelIMG.git`
+1. Clear the `dataset/` and `output/` directories of example data and copy your dataset to `dataset/` for it to be processed by the program.
+2. Run `diversify.py` in Python3. `sudo python3 diversify.py`
+3. Your dataset will now be rotated, mirrored and saved to `output/`.
 
-1. Das mit LabelIMG erstellte Datenset in den Ordner 'datenset' kopieren.
-2. Die Datei 'main.py' mit Python3 ausführen.
-3. Das Datenset wird nun durch drehen und spiegel verachtfacht.
-
-## Mitwirkende:
+## Contributers
 @ockapunktnet
 @BendiXB
