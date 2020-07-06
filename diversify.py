@@ -300,11 +300,11 @@ def xmlmirror(pathtoxml, xmlname):
             new.write(line)
 
 # rotate images and xml
-for file in os.listdir("datenset/"):
+for file in os.listdir("dataset/"):
     if file.endswith('.JPG'):
-        imagedrehen('datenset/'+file, file)
+        imagedrehen('dataset/'+file, file)
     if file.endswith('.xml'):
-        xmldrehen('datenset/'+file, file)
+        xmldrehen('dataset/'+file, file)
 
 # mirror images and xml
 for file in os.listdir("output/"):
