@@ -313,4 +313,4 @@ for file in os.listdir("output/"):
     if file.endswith('.xml'):
         xmlmirror('output/'+file, file)
 
-print('The dataset from dataset/ is now diversified by rotating and mirroring it to output/. The number of samples is now eight times bigger.')
+print('The dataset from dataset/ is now augmented by rotating and mirroring it to output/, thus expanding the samplesize by a factor of 8.')
