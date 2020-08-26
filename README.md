@@ -1,7 +1,8 @@
-# AugmentLabelIMG
+# AugmentLabelIMG 
+[![HitCount](http://hits.dwyl.com/BendiXB/AugmentLabelIMG.svg)](http://hits.dwyl.com/BendiXB/AugmentLabelIMG)
+
 A simple pythonscript to augment an annotated image dataset in JPG/XML Format as used by LabelIMG (https://github.com/tzutalin/labelImg).
 The script will rotate the images 4 times and mirror the resulting images and the annotations making for an expansion by the factor of 8.
-
 
 ## Usage
 0. Download the repository from the GitHub website and unzip it or directly clone it. 
