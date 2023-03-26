@@ -196,6 +196,12 @@ def xmldrehen(pathtoxml, xmlname):
                     newfilenametag = newxmlname[:-4] + '.JPG'
                     line = line.replace(oldfilenametag, newfilenametag)
                     new.write(line)
+                elif '<width>' in line:
+                    line = line.replace('width','height')
+                    new.write(line)
+                elif '<height>' in line:
+                    line = line.replace('height','width')
+                    new.write(line)
                 elif '<ymax>' in line:
                     i = int(re.search(r'\d+', line).group())
                     line = line.replace(str(i), str((h - xmin0[yminn])))
